@@ -5,18 +5,30 @@
         </title>
     </head>
     <body>
-        <h1 style="color:black" align="center"><strong>WELCOME TO OUR REGISTRATION SYSTEM</strong></h1>
-        <form>
+        <h1 style="color:rgb(23, 23, 148)" align="center"><strong>WELCOME TO OUR REGISTRATION SYSTEM</strong></h1>
+        <br>
+        <br>
+        <br>
+        <form style="color:rgb(53, 10, 10)">
             First Name:<input type="text" name="user name"></br>
         </br>
             Middle Name:<input type="text" name="user name"></br>
         </br>
             Last Name:<input type="text" name="user name"></br>
         </br>
-            Email:<input type="Email" name="Email"</br>
-        </br> 
+        <form method="post" action="register.php">
+            <input type="radio" name="sex" value="Female">Female</br>
+            <input type="radio" name="sex" value="Male" >Male</br>
+        </form>
             Password:<input type="password" name="password"></br>
         </br>
+            Enter your Email:<input type="email" name="email"></br>
+        </br>
+            <input type="submit" name="info" value="submit" ></br>
+
+
+            
         </form>
+       
     </body>
 </html>
