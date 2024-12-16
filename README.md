@@ -12,8 +12,3 @@ This is a simple **School Registration System** that allows school administrator
 - Real-time validation
 - View student information.
 - Automatic Confirmation.
-
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/daadereje/school-registration-system.git
