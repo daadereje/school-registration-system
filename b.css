@@ -1,10 +1,14 @@
-body{
-  background-color: rgb(238, 233, 227);
+body {
+  background-color: rgb(238, 233, 227); 
+  background-image: url(../image/hig.jpg.jpg); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100vh; 
+  margin: 0; 
 }
 
-
-.block-form{
+.block-form {
   width: 50%; 
   margin: 0 auto; 
 }
-
