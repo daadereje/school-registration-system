@@ -12,3 +12,17 @@ body {
   width: 50%; 
   margin: 0 auto; 
 }
+a:link{
+  color:#109810;
+  text-decoration:none;
+}
+a:visited{
+  color:#109810;
+}
+a:hover{
+  color:orangered;
+  text-decoration:underline solid orangered;
+  }
+a:active{
+  backgrond-color:black;
+}
