@@ -112,11 +112,11 @@
   border-bottom: 1px solid white;
 }
 .gender-category {
-  margin: 15px;
+  margin: 20px;
   color: white;
 }
 .gender-category label {
-  padding: 0 20px 0 15px;
+  padding: 0 30px 0 15px;
 }
 .gender-category label,
 .gender-category input,
