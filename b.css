@@ -31,32 +31,115 @@
   font-size: 22px;
 }
 
-body {
-  background-color: rgb(238, 233, 227);
-  background-image: url(../image/hig.jpg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
+* {
+  padding: 0;
   margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-.block-form {
+.htmlclass {
+  background-image: url(1000_F_826059877_eiDcwy5lULz8uSJkQ6bdWpqOXz4X6Yul.jpg);
+  display: flex;
+  background-size: cover;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.Registeration-FORM {
+  width: 65%;
+  max-width: 250;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2px;
+  margin: 0 28px;
+  border-radius: 10px;
+  box-shadow: inset -2px 2px 2px white;
+}
+
+/*.block-form {
   width: 50%;
   margin: 0 auto;
   padding: 0;
   font-family: sans-serif;
   text-align: center;
-}
-.FORM {
-  font-size: 30px;
-  font-weight: bold;
-}
-.Registeration-FORM input {
-  font-size: 16px;
-  padding: 5px 3px;
-  width: 200;
+}*/
+.FORM-title {
+  font-size: 26px;
+  font-weight: 600;
   text-align: center;
+  padding-bottom: 6px;
+  color: white;
+  text-shadow: 2px 2px black;
+  border-bottom: solid 1px white;
+}
+.main-user-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px 0px;
+}
+
+.user-input-box:nth-child(2n) {
+  justify-content: end;
+}
+
+.user-input-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  padding-bottom: 15px;
+}
+.user-input-box label {
+  width: 95%;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 5px 0;
+}
+.user-input-box input {
+  height: 40px;
+  width: 600;
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid grey;
+  padding: 0 10px;
+}
+.gender-title {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  border-bottom: 1px solid white;
+}
+.gender-category {
+  margin: 15px;
+  color: white;
+}
+.gender-category label {
+  padding: 0 20px 0 15px;
+}
+.gender-category label,
+.gender-category input,
+.form-submit-btn input {
+  cursor: pointer;
+}
+.form-submit-btn {
+  margin-top: 40px;
+}
+.form-submit-btn input {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  color: rbga(63, 114, 76, 0.7);
+}
+
+.form-submit-btn input:hover {
+  background: rgba(56, 204, 93, 0.7);
+  color: rgba(225, 225, 225);
 }
 a:link {
   color: #109810;
@@ -66,7 +149,7 @@ a:visited {
   color: #109810;
 }
 a:hover {
-  color: orangered;
+  color: rgba(56, 204, 93, 0.7);
   text-decoration: underline solid orangered;
 }
 a:active {
