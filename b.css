@@ -1,28 +1,61 @@
+.RFORM {
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  background-color: rgb(225, 198, 156);
+  font-weight: bold;
+}
+.first {
+  background-color: black;
+}
+.welcome {
+  color: #987f10;
+  text-align: center;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.info {
+  color: #987f10;
+  text-align: center;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.sbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.goto {
+  padding: 10px 20px;
+  font-size: 22px;
+}
 body {
-  background-color: rgb(238, 233, 227); 
-  background-image: url(../image/hig.jpg.jpg); 
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
-  height: 100vh; 
-  margin: 0; 
+  background-color: rgb(238, 233, 227);
+  background-image: url(../image/hig.jpg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
 }
 
 .block-form {
-  width: 50%; 
-  margin: 0 auto; 
+  width: 50%;
+  margin: 0 auto;
 }
-a:link{
-  color:#109810;
-  text-decoration:none;
+a:link {
+  color: #109810;
+  text-decoration: none;
 }
-a:visited{
-  color:#109810;
+a:visited {
+  color: #109810;
 }
-a:hover{
-  color:orangered;
-  text-decoration:underline solid orangered;
-  }
-a:active{
-  backgrond-color:black;
+a:hover {
+  color: orangered;
+  text-decoration: underline solid orangered;
+}
+a:active {
+  backgrond-color: black;
 }
