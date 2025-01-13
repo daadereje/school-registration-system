@@ -54,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             Password:<input type="password" name="password"></br>
             </br>
             <input type="submit" name="info" value="submit"></br>
-            Already a member? <a href="login.php">LOGIN</a>
+            Already a member? <a href="">LOGIN</a>
         </form>
     </div>
 
