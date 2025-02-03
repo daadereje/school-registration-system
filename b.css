@@ -230,7 +230,7 @@ p{
 .course-col{
   flex-basis: 31%;
   background: #fff3f3;
-  border-radius:150px;
+  border-radius:180px;
   margin-bottom: 5%;
   padding: 20px 5px;
   box-sizing: border-box;
@@ -238,6 +238,21 @@ p{
   cursor: pointer;
 
 
+}
+h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.course-col:hover{
+  box-shadow: 0 0 20px 0px rgb(221,4,4,0.2);
+}
+/*-----campus-----*/
+.campus{
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
 }
 =======
 body{
@@ -370,4 +385,4 @@ form .gender-details .category{
       width: 3px;
     }
   }
->>>>>>> 2122c1b1ad0034616e86ceb74ff5508451a21fea
+
