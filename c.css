@@ -82,19 +82,17 @@ nav {
 
 .course {
   width: 80%;
-  margin: auto;
+  margin-left: 30;
   text-align: center;
   padding-top: 100px;
 }
 h1 {
   font-size: 36px;
-  text-align: center;
   font-weight: 600;
 }
 p {
   color: #777;
   font-size: 14px;
-  text-align: center;
   font-weight: 300;
   line-height: 22px;
   padding: 10px;
@@ -152,24 +150,24 @@ h3 {
   font-weight: 600;
 }
 
-.icons .fa-brands {
+.icons .fa {
   color: #f44366;
-  margin: 0 20px;
+  margin: 0 13px;
   cursor: pointer;
-  padding: 20px 0;
+  padding: 18px 0;
 }
 .fa-heart-o {
   color: #f44366;
 }
 .sub-header {
-  height: 80vh;
+  height: 50vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url(about\ aas.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
-  color: black;
+  color: white;
 }
 .sub-header {
   margin-top: 100px;
@@ -199,5 +197,8 @@ h3 {
   color: #f44366;
 }
 .red-btn {
-  color: black;
+  color: white;
+}
+.read{
+  font-family: 'Times New Roman', Times, serif;
 }
