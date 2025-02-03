@@ -1,64 +1,68 @@
 <!DOCTYPE html>
-<html lang="eng">
-    <head>
-        <meta charset="utf=8"/>
-        <meta name="viewport" content="Width=device-Width",initial-scale="1.0"/>
-        <title>REGISTRATION FORM</title>
-        <link rel="stylesheet" type="text/css" href="b.css">
-    </head>
-    <body class="htmlclass">
-        <div class="Registeration-FORM">
-            <h1 CLASS="FORM-title"><strong>REGISTRATION FORM</strong></h1>
-            <from action="#">
-                <div class="main-user-info">
-                     <div class="user-input-box">
-                        <label for="First Name:">First Name:</label>
-                        <input type="text" name="first name" id="First Name" placeholder="Enter First Name"/>
-                     </div>
-                     <div class="user-input-box">
-                         <label for="Middle Name:">Middle Name:</label> 
-                         <input type="text" name="Middle name" id="Middle Name" placeholder=" Enter Middle Name"/>
-                     </div>
-                     <div class="user-input-box">
-                         <label for="Last Name:">Last Name: </label>
-                         <input type="text" name="Last Name" id="Last Name" placeholder="Enter Last Name"/>
-                     </div>
-                     <div class="user-input-box">
-                         <label for="Username:">User Name:</label>
-                         <input type="text"name="Username" id="Username" placeholder="Enter Username">
-                     </div>
-                     <div class="user-input-box">
-                        <label for="Email:">Email:</label>
-                        <input type="email" name="email" id="Email" placeholder=" Enter Email"/>
-                     </div>    
-                     <div class="user-input-box">
-                        <label for="Phone number:">Phone Number:</label>
-                        <input type="text" name="Phone Number" id="Phone Number" placeholder=" Enter Phone Number"/>
-                     </div>    
-                     <div class="user-input-box">
-                        <label for="Password:">Password:</label> 
-                        <input type="password" name="password" id="Password" placeholder=" Enter password"/>
-                     </div>  
-                     <div class="user-input-box">
-                        <label for="ConfirmPassword:">ConfirmPassword:</label> 
-                        <input type="password" name="ConfirmPassword" id="ConfirmPassword" placeholder="ConfirmPassword"/>
-                     </div> 
-               </div>
-                   
-           <div class="gender-details-box">
-               <span class="gender-title">Gender:</span>
-                    <div class="gender-category">
-                         <input type="radio" name="Gender" value="male">
-                         <label for="male">Male</label>
-                         <input type="radio" name="Gender" value="Female">
-                         <label for="male">Female</label>
-                    </div>
-           </div>
-                
-           <div class="form-submit-btn">
-             <input type="submit" value="Register">
-           </div>
-            </from>
-        </div>
-   </body>
+<head lang="en" dir="ltr">
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="b.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+    <div class="container" align="center">
+        <div class="title"><strong>Registration Form</strong></div><br />
+        <form action="#">
+            <div class="user-deails">
+                <div class="input-box">
+                    <span class="details">Full Name</span>
+                    <input type="text" placeholder="Enter your name" required>
+                </div><br />
+                <div class="user-deails">
+                    <div class="input-box">
+                        <span class="details">First Name</span>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div><br />
+                    <div class="input-box">
+                        <span class="details">Middle Name</span>
+                        <input type="text" placeholder="Enter your middle name" required>
+                    </div><br />
+                    <div class="input-box">
+                        <span class="details">Last Name</span>
+                        <input type="text" placeholder="Enter your last name" required>
+                    </div><br />
+                    <div class="input-box">
+                        <span class="details">Username</span>
+                        <input type="text" placeholder="Enter your username" required>
+                    </div><br />
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="text" placeholder="Enter your email" required>
+                    </div><br />
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input type="text" placeholder="Enter your Password" required>
+                    </div><br />
+                    <div class="input-box">
+                        <span class="details">Confirm Password</span>
+                        <input type="text" placeholder="Confirm your password" required>
+                    </div> <br /> 
+            </div>
+            <div class="gender-details">
+                <input type="radio" name="gender" id="dot-1">
+                <input type="radio" name="gender" id="dot-2">
+                <span class="gender-title">Gender</span>
+                <div class="category">
+                    <lable for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="gender">Male</span>
+                    </lable>
+                    <lable for="dot-2">
+                        <span class="dot two"></span>
+                        <span class="gender">Female</span>
+                    </lable>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+</body>
 </html>
