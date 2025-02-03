@@ -9,11 +9,7 @@
     <div class="container">
         <div class="title"><strong>Registration Form</strong></div><br />
         <form action="#">
-            <div class="user-deails">
-                <div class="input-box">
-                    <span class="details">Full Name</span>
-                    <input type="text" placeholder="Enter your name" required>
-                </div><br />
+            
                 <div class="user-deails">
                     <div class="input-box">
                         <span class="details">First Name</span>
@@ -45,20 +41,22 @@
                     </div> <br /> 
             </div>
             <div class="gender-details">
-                <input type="radio" name="gender" id="dot-1">
-                <input type="radio" name="gender" id="dot-2">
                 <span class="gender-title">Gender</span>
                 <div class="category">
+                    <input type="radio" name="gender" id="dot-1" value="male">
                     <label for="dot-1">
                         <span class="dot one"></span>
                         <span class="gender">Male</span>
                     </label>
+            
+                    <input type="radio" name="gender" id="dot-2" value="female">
                     <label for="dot-2">
                         <span class="dot two"></span>
                         <span class="gender">Female</span>
                     </label>
                 </div>
             </div>
+            
             <div class="button">
                 <input type="submit" value="Register">
             </div>
